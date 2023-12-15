@@ -20,7 +20,7 @@ import BN from 'bn.js';
 import { log } from './logger';
 
 const DEBUG = process.env.PAYOUTS_DEBUG;
-const MAX_CALLS = 5;
+const MAX_CALLS = 1;
 
 export interface ServiceArgs {
 	api: ApiPromise;
